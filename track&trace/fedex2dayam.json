@@ -1,0 +1,78 @@
+{
+"data": {
+ "ReturnTransitAndCommit": true,
+ "CarrierCodes": [
+   "FDXE"
+ ],
+ "RequestedShipment": {
+   "DropoffType": "REGULAR_PICKUP",
+   "ServiceType": "FEDEX_2_DAY_AM",
+   "PackagingType": "YOUR_PACKAGING",
+   "Shipper": {
+     "Contact": {
+       "PersonName": "Sender Name",
+       "CompanyName": "Company Name",
+       "PhoneNumber": "5555555555"
+     },
+     "Address": {
+       "StreetLines": [
+         "Address Line 1"
+       ],
+       "City": "Collierville",
+       "StateOrProvinceCode": "TN",
+       "PostalCode": "38018",
+       "CountryCode": "US"
+     }
+   },
+   "Recipient": {
+     "Contact": {
+       "PersonName": "Recipient Name",
+       "CompanyName": "Company Receipt Name",
+       "PhoneNumber": "5555555555"
+     },
+     "Address": {
+       "StreetLines": [
+         "Address Line 1"
+       ],
+       "City": "Charlotte",
+       "StateOrProvinceCode": "NC",
+       "PostalCode": "28202",
+       "CountryCode": "US",
+       "Residential": false
+     }
+   },
+   "ShippingChargesPayment": {
+     "PaymentType": "SENDER",
+     "Payor": {
+       "ResponsibleParty": {
+         "AccountNumber": 510087160
+       }
+     }
+   },
+   "PackageCount": "1",
+   "RequestedPackageLineItems": {
+     "SequenceNumber": 1,
+     "GroupPackageCount": 1,
+     "Weight": {
+       "Units": "LB",
+       "Value": "50.0"
+     },
+     "Dimensions": {
+       "Length": 50,
+       "Width": 10,
+       "Height": 10,
+       "Units": "IN"
+     }
+   }
+ }
+},
+"credentials": {
+ "environment": "sandbox",
+ "debug": "true",
+ "key": "sfeomeEteprkZ1H1",
+ "password": "zO1hv7LUWqXWCsksHlhm7NDxS",
+ "account_number": 510087160,
+ "meter_number": 119059958,
+ "imperial": "true"
+}
+}
